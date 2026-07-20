@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<script src="./support.js"></script>
+</head>
+<body>
+<x-dc>
+<helmet data-dc-atomics>
+<meta name="design_doc_mode" content="canvas">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,300;0,6..72,400;0,6..72,500;1,6..72,400&family=Manrope:wght@400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&family=Sora:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+<style>
+body{margin:0;background:#eceae4;font-family:'Manrope',system-ui,sans-serif}
+.dv-turn{padding:44px 48px 36px;border-bottom:1px solid rgba(0,0,0,.08);scroll-margin-top:16px}
+.dv-thd{display:flex;align-items:baseline;gap:10px;margin:0 0 24px}
+.dv-tid{font:600 10px 'JetBrains Mono',monospace;padding:3px 7px;background:#1a1a1a;color:#fff;border-radius:4px;text-decoration:none}
+.dv-tname{font:600 13px/1.2 'Manrope',sans-serif;color:#1a1a1a}
+.dv-opts{display:flex;flex-wrap:wrap;gap:32px;align-items:flex-start}
+.dv-opt{flex:none;display:flex;flex-direction:column;gap:11px;scroll-margin-top:16px}
+.dv-oid{font:600 10.5px 'JetBrains Mono',monospace;padding:3px 7px;background:rgba(0,0,0,.08);color:#1a1a1a;border-radius:5px;text-decoration:none}
+.dv-olabel{display:flex;align-items:baseline;gap:9px;font:400 11.5px/1.35 'Manrope',sans-serif;color:rgba(0,0,0,.55);max-width:600px}
+.dv-card{max-width:100%;border-radius:14px;box-shadow:0 8px 30px rgba(0,0,0,.10);overflow:hidden;border:1px solid rgba(0,0,0,.07)}
+.dv-opt:target .dv-oid{background:#2a78d6;color:#fff}
+.dv-next{margin:26px 0 0;font:12.5px/1.6 'Manrope',sans-serif;color:rgba(0,0,0,.5);max-width:760px}
+.dv-next a{color:rgba(0,0,0,.5)}
+a.dv-oid{text-decoration:none}
+</style>
+</helmet>
+
+<section class="dv-turn" id="t1">
+<div class="dv-thd"><a class="dv-tid" href="#t1">1</a><span class="dv-tname">Three directions for your portfolio hero &amp; tone</span></div>
+<div class="dv-opts">
+
+<div class="dv-opt" id="1a">
+<div class="dv-olabel"><a class="dv-oid" href="#1a">1a</a><span><strong style="color:rgba(0,0,0,.75)">Editorial Light</strong> — warm off-white, Newsreader serif display, soft peach→lavender wash. Calm, confident, print-magazine feel.</span></div>
+<div class="dv-card" style="width:620px">
+  <div style="background:#f6f3ee;position:relative;padding:0;overflow:hidden;color:#20201d">
+    <div style="position:absolute;inset:0;background:radial-gradient(120% 90% at 85% -10%, oklch(0.9 0.05 40 / .9), transparent 55%),radial-gradient(90% 80% at 5% 110%, oklch(0.9 0.045 300 / .8), transparent 55%)"></div>
+    <div style="position:relative;padding:22px 34px;display:flex;align-items:center;justify-content:space-between;font-size:12.5px">
+      <span style="font-family:'Newsreader',serif;font-size:18px;letter-spacing:.01em">Anik Dutta</span>
+      <div style="display:flex;gap:22px;align-items:center;color:rgba(0,0,0,.55);font-weight:500">
+        <span>Work</span><span>About</span><span>Experience</span><span>Contact</span>
+        <span style="border:1px solid rgba(0,0,0,.2);padding:6px 13px;border-radius:20px;color:#20201d">Résumé ↗</span>
+      </div>
+    </div>
+    <div style="position:relative;padding:52px 34px 60px">
+      <div style="font:500 12px 'JetBrains Mono',monospace;letter-spacing:.14em;text-transform:uppercase;color:oklch(0.55 0.09 30);margin-bottom:26px">Full-Stack · Generative AI · Cloud</div>
+      <h1 style="font-family:'Newsreader',serif;font-weight:400;font-size:56px;line-height:1.02;letter-spacing:-.01em;margin:0 0 24px;max-width:11ch">I build intelligent, scalable products.</h1>
+      <p style="font-size:16px;line-height:1.6;color:rgba(0,0,0,.6);max-width:46ch;margin:0 0 34px">Full-stack engineer specializing in generative-AI applications and cloud-native MERN systems — from model integration to production infrastructure.</p>
+      <div style="display:flex;gap:14px;font-size:14px;font-weight:600">
+        <span style="background:#20201d;color:#f6f3ee;padding:13px 24px;border-radius:26px">View selected work</span>
+        <span style="border:1px solid rgba(0,0,0,.22);padding:13px 24px;border-radius:26px">Get in touch</span>
+      </div>
+    </div>
+    <div style="position:relative;border-top:1px solid rgba(0,0,0,.09);padding:16px 34px;display:flex;gap:26px;font:500 12px 'JetBrains Mono',monospace;color:rgba(0,0,0,.45)">
+      <span>React · Next.js</span><span>Node · Express</span><span>Python · LLMs</span><span>AWS · Docker</span>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="dv-opt" id="1b">
+<div class="dv-olabel"><a class="dv-oid" href="#1b">1b</a><span><strong style="color:rgba(0,0,0,.75)">Aurora Dark</strong> — near-black premium, subtle violet→teal aurora, Space Grotesk + mono. Modern, technical, high-contrast.</span></div>
+<div class="dv-card" style="width:620px">
+  <div style="background:#0b0b0f;position:relative;overflow:hidden;color:#eceaf2;font-family:'Space Grotesk',sans-serif">
+    <div style="position:absolute;inset:0;background:radial-gradient(80% 60% at 20% -5%, oklch(0.55 0.13 290 / .55), transparent 60%),radial-gradient(70% 70% at 100% 40%, oklch(0.6 0.11 200 / .4), transparent 55%)"></div>
+    <div style="position:relative;padding:22px 34px;display:flex;align-items:center;justify-content:space-between;font-size:12.5px">
+      <span style="font-weight:600;letter-spacing:.02em">anik.dev</span>
+      <div style="display:flex;gap:22px;align-items:center;color:rgba(255,255,255,.55);font-weight:500">
+        <span>Work</span><span>About</span><span>Experience</span><span>Contact</span>
+        <span style="border:1px solid rgba(255,255,255,.22);padding:6px 13px;border-radius:6px;color:#eceaf2">Résumé ↗</span>
+      </div>
+    </div>
+    <div style="position:relative;padding:54px 34px 58px">
+      <div style="font:400 12px 'JetBrains Mono',monospace;letter-spacing:.12em;color:oklch(0.75 0.11 200);margin-bottom:26px">// full-stack · generative-ai · cloud</div>
+      <h1 style="font-weight:600;font-size:52px;line-height:1.05;letter-spacing:-.02em;margin:0 0 22px;max-width:15ch">Engineering intelligent systems, end&#8209;to&#8209;end.</h1>
+      <p style="font-size:15.5px;line-height:1.65;color:rgba(255,255,255,.6);max-width:48ch;margin:0 0 34px">I design and ship generative-AI products and cloud-native MERN applications — bridging model, backend and interface into fast, reliable software.</p>
+      <div style="display:flex;gap:14px;font-size:14px;font-weight:600">
+        <span style="background:linear-gradient(90deg, oklch(0.7 0.12 290), oklch(0.72 0.11 210));color:#0b0b0f;padding:13px 24px;border-radius:8px">View selected work</span>
+        <span style="border:1px solid rgba(255,255,255,.22);padding:13px 24px;border-radius:8px;color:#eceaf2">Get in touch</span>
+      </div>
+    </div>
+    <div style="position:relative;border-top:1px solid rgba(255,255,255,.09);padding:16px 34px;display:flex;gap:26px;font:400 12px 'JetBrains Mono',monospace;color:rgba(255,255,255,.42)">
+      <span>React · Next.js</span><span>Node · Express</span><span>Python · LLMs</span><span>AWS · Docker</span>
+    </div>
+  </div>
+</div>
+</div>
+
+<div class="dv-opt" id="1c">
+<div class="dv-olabel"><a class="dv-oid" href="#1c">1c</a><span><strong style="color:rgba(0,0,0,.75)">Centered Minimal</strong> — bright white, one blurred gradient orb, oversized Sora type, everything centered. Ultra-clean, product-launch feel.</span></div>
+<div class="dv-card" style="width:620px">
+  <div style="background:#fbfbfa;position:relative;overflow:hidden;color:#141414;font-family:'Sora',sans-serif">
+    <div style="position:absolute;top:38%;left:50%;width:420px;height:420px;transform:translate(-50%,-50%);border-radius:50%;background:conic-gradient(from 200deg, oklch(0.82 0.09 300), oklch(0.85 0.08 220), oklch(0.86 0.075 160), oklch(0.85 0.085 40), oklch(0.82 0.09 300));filter:blur(70px);opacity:.5"></div>
+    <div style="position:relative;padding:22px 34px;display:flex;align-items:center;justify-content:space-between;font-size:12.5px">
+      <span style="font-weight:700;letter-spacing:.02em">AD</span>
+      <div style="display:flex;gap:22px;align-items:center;color:rgba(0,0,0,.5);font-weight:500">
+        <span>Work</span><span>About</span><span>Experience</span><span>Contact</span>
+        <span style="background:#141414;color:#fff;padding:7px 14px;border-radius:20px">Résumé</span>
+      </div>
+    </div>
+    <div style="position:relative;padding:66px 34px 72px;text-align:center;display:flex;flex-direction:column;align-items:center">
+      <div style="font:500 11.5px 'JetBrains Mono',monospace;letter-spacing:.16em;text-transform:uppercase;color:rgba(0,0,0,.45);margin-bottom:26px;border:1px solid rgba(0,0,0,.12);padding:6px 14px;border-radius:20px;background:rgba(255,255,255,.6)">Available for full-time roles</div>
+      <h1 style="font-weight:600;font-size:58px;line-height:1.0;letter-spacing:-.03em;margin:0 0 22px;max-width:13ch">Anik Dutta builds AI-native software.</h1>
+      <p style="font-size:16px;line-height:1.6;color:rgba(0,0,0,.55);max-width:44ch;margin:0 0 36px">Full-stack &amp; generative-AI engineer working across the MERN stack and cloud — turning ideas into polished, production-ready products.</p>
+      <div style="display:flex;gap:14px;font-size:14px;font-weight:600">
+        <span style="background:#141414;color:#fff;padding:14px 26px;border-radius:30px">View work</span>
+        <span style="border:1px solid rgba(0,0,0,.18);padding:14px 26px;border-radius:30px;background:rgba(255,255,255,.7)">Contact</span>
+      </div>
+    </div>
+  </div>
+</div>
+
+</div>
+<p class="dv-next">Pick a direction and I'll build the full single-page scroll (hero → about → experience → projects → skills → contact). Try: "build out <a class="dv-oid" href="#1b">1b</a>" · "I like <a class="dv-oid" href="#1a">1a</a> but darker" · "combine the centered layout of <a class="dv-oid" href="#1c">1c</a> with <a class="dv-oid" href="#1b">1b</a>'s aurora" · "show more directions".</p>
+</section>
+
+</x-dc>
+</body>
+</html>
